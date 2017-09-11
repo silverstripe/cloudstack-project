@@ -1,15 +1,16 @@
 ## Overview
 
-Base project for SilverStripe Platform:
+Base project for CWP CloudStacks hosted on SilverStripe Platform:
 
  * [`framework`](http://github.com/silverstripe/silverstripe-framework): Module including the base framework
  * [`cms`](http://github.com/silverstripe/silverstripe-cms): Module including a Content Management System
  * [`dynamodb`](https://github.com/silverstripe/silverstripe-dynamodb): DynamoDB session handling
- * `themes/simple` (optional)
+ * [`Starter Theme`](https://gitlab.cwp.govt.nz/cwp/starter-theme): Base styling
+ * [`Watea Theme`](https://gitlab.cwp.govt.nz/cwp/watea-theme): Additional styling to starter theme
 
 ## Installation ##
 
-	composer create-project silverstripe/platform-project /path/to/local/site
+	composer create-project silverstripe/cloudstack-project /path/to/local/site
 
 ## Bugtracker ##
 
