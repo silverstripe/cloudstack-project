@@ -4,23 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e7c550411ba24c9fba85194c6bdf333",
+    "hash": "fad96c4b719f729ffabf9e714d735b09",
+    "content-hash": "b1156f13979f4fc4f1c3423c3b15cf34",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.33.4",
+            "version": "3.36.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "586a9c0e52664cfc4d2d91f9dcdf3ea48d143162"
+                "reference": "acb08da60a042e17b0cd9e5e111ba895c8a79f2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/586a9c0e52664cfc4d2d91f9dcdf3ea48d143162",
-                "reference": "586a9c0e52664cfc4d2d91f9dcdf3ea48d143162",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/acb08da60a042e17b0cd9e5e111ba895c8a79f2d",
+                "reference": "acb08da60a042e17b0cd9e5e111ba895c8a79f2d",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
                 "guzzlehttp/promises": "~1.0",
                 "guzzlehttp/psr7": "^1.4.1",
@@ -33,11 +38,7 @@
                 "behat/behat": "~3.0",
                 "doctrine/cache": "~1.4",
                 "ext-dom": "*",
-                "ext-json": "*",
                 "ext-openssl": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
                 "nette/neon": "^2.3",
                 "phpunit/phpunit": "^4.8.35|^5.4.0",
                 "psr/cache": "^1.0"
@@ -84,7 +85,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-08-21T20:34:30+00:00"
+            "time": "2017-09-08 19:50:29"
         },
         {
             "name": "composer/installers",
@@ -201,7 +202,62 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09T07:53:48+00:00"
+            "time": "2017-08-09 07:53:48"
+        },
+        {
+            "name": "cwp/starter-theme",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.cwp.govt.nz/cwp/starter-theme.git",
+                "reference": "242a329fbf2e7569a424e0833b9f25a9cc554bbf"
+            },
+            "suggest": {
+                "cwp/cwp": "Much of the functionality in this theme is enabled by this module"
+            },
+            "type": "silverstripe-theme",
+            "extra": {
+                "installer-name": "starter"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "CWP Theme",
+            "keywords": [
+                "cwp",
+                "silverstripe",
+                "theme"
+            ],
+            "time": "2017-09-08 04:00:27"
+        },
+        {
+            "name": "cwp/watea-theme",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.cwp.govt.nz/cwp/watea-theme.git",
+                "reference": "a0aaa7ffe23b493f0ed420e87f4e4974011470f9"
+            },
+            "require": {
+                "cwp/starter-theme": "^1.1"
+            },
+            "suggest": {
+                "cwp/agency-extensions": "Much of the functionality in this theme is enabled by this module"
+            },
+            "type": "silverstripe-theme",
+            "extra": {
+                "installer-name": "starter_watea"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "CWP Watea theme",
+            "keywords": [
+                "cwp",
+                "silverstripe",
+                "theme"
+            ],
+            "time": "2017-09-08 04:03:58"
         },
         {
             "name": "doctrine/cache",
@@ -271,7 +327,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2017-07-22T12:49:21+00:00"
+            "time": "2017-07-22 12:49:21"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -336,7 +392,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22T18:50:49+00:00"
+            "time": "2017-06-22 18:50:49"
         },
         {
             "name": "guzzlehttp/promises",
@@ -387,7 +443,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -452,7 +508,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "time": "2017-03-20 17:10:46"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -496,7 +552,7 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2017-01-23T04:29:33+00:00"
+            "time": "2017-01-23 04:29:33"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -551,7 +607,7 @@
                 "json",
                 "jsonpath"
             ],
-            "time": "2016-12-03T22:08:25+00:00"
+            "time": "2016-12-03 22:08:25"
         },
         {
             "name": "psr/http-message",
@@ -601,43 +657,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
-        },
-        {
-            "name": "silverstripe-themes/simple",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "3cf638c170e649b6b122504c8f62d6d8946b853c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/3cf638c170e649b6b122504c8f62d6d8946b853c",
-                "reference": "3cf638c170e649b6b122504c8f62d6d8946b853c",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": ">=3.0"
-            },
-            "type": "silverstripe-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sara Tušar (Innovaif)",
-                    "homepage": "http://www.saratusar.com"
-                }
-            ],
-            "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
-            "keywords": [
-                "silverstripe",
-                "theme"
-            ],
-            "time": "2015-04-09T03:18:37+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "silverstripe/cms",
@@ -691,7 +711,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2017-06-15T11:50:49+00:00"
+            "time": "2017-06-15 11:50:49"
         },
         {
             "name": "silverstripe/crontask",
@@ -739,7 +759,7 @@
                 "cron",
                 "silverstripe"
             ],
-            "time": "2017-04-10T21:44:50+00:00"
+            "time": "2017-04-10 21:44:50"
         },
         {
             "name": "silverstripe/dynamodb",
@@ -788,7 +808,7 @@
                 "dynamodb",
                 "silverstripe"
             ],
-            "time": "2017-06-14T03:00:45+00:00"
+            "time": "2017-06-14 03:00:45"
         },
         {
             "name": "silverstripe/framework",
@@ -842,7 +862,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2017-06-27T11:48:16+00:00"
+            "time": "2017-06-27 11:48:16"
         },
         {
             "name": "silverstripe/reports",
@@ -892,7 +912,7 @@
                 "reports",
                 "silverstripe"
             ],
-            "time": "2017-05-30T23:06:19+00:00"
+            "time": "2017-05-30 23:06:19"
         },
         {
             "name": "silverstripe/siteconfig",
@@ -935,7 +955,7 @@
                 "silverstripe",
                 "siteconfig"
             ],
-            "time": "2017-06-15T11:52:21+00:00"
+            "time": "2017-06-15 11:52:21"
         }
     ],
     "packages-dev": [
@@ -991,7 +1011,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1045,7 +1065,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2015-12-27T11:43:31+00:00"
+            "time": "2015-12-27 11:43:31"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1090,7 +1110,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2017-08-08T06:39:58+00:00"
+            "time": "2017-08-08 06:39:58"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1137,26 +1157,26 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2017-06-03T08:32:36+00:00"
+            "time": "2017-06-03 08:32:36"
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.7.0",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073"
+                "reference": "c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/93d39f1f7f9326d746203c7c056f300f7f126073",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
+                "reference": "c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
-                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2",
+                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
                 "sebastian/comparator": "^1.1|^2.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
@@ -1167,7 +1187,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -1200,7 +1220,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-03-02T20:05:34+00:00"
+            "time": "2017-09-04 11:05:03"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1262,7 +1282,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06T15:47:00+00:00"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1309,7 +1329,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1350,7 +1370,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21T13:50:34+00:00"
+            "time": "2015-06-21 13:50:34"
         },
         {
             "name": "phpunit/php-timer",
@@ -1399,7 +1419,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26T11:10:40+00:00"
+            "time": "2017-02-26 11:10:40"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -1448,7 +1468,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-27T10:12:30+00:00"
+            "time": "2017-02-27 10:12:30"
         },
         {
             "name": "phpunit/phpunit",
@@ -1520,7 +1540,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-06-21T08:07:12+00:00"
+            "time": "2017-06-21 08:07:12"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1576,7 +1596,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02T06:51:40+00:00"
+            "time": "2015-10-02 06:51:40"
         },
         {
             "name": "sebastian/comparator",
@@ -1640,7 +1660,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-01-29T09:50:25+00:00"
+            "time": "2017-01-29 09:50:25"
         },
         {
             "name": "sebastian/diff",
@@ -1692,7 +1712,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-05-22T07:24:03+00:00"
+            "time": "2017-05-22 07:24:03"
         },
         {
             "name": "sebastian/environment",
@@ -1742,7 +1762,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-08-18T05:49:44+00:00"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",
@@ -1809,7 +1829,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2016-06-17T09:04:28+00:00"
+            "time": "2016-06-17 09:04:28"
         },
         {
             "name": "sebastian/global-state",
@@ -1860,7 +1880,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-10-12T03:26:01+00:00"
+            "time": "2015-10-12 03:26:01"
         },
         {
             "name": "sebastian/recursion-context",
@@ -1913,7 +1933,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-10-03T07:41:43+00:00"
+            "time": "2016-10-03 07:41:43"
         },
         {
             "name": "sebastian/version",
@@ -1948,24 +1968,24 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2015-06-21T13:59:46+00:00"
+            "time": "2015-06-21 13:59:46"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.3.6",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ddc23324e6cfe066f3dd34a37ff494fa80b617ed"
+                "reference": "1d8c2a99c80862bdc3af94c1781bf70f86bccac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ddc23324e6cfe066f3dd34a37ff494fa80b617ed",
-                "reference": "ddc23324e6cfe066f3dd34a37ff494fa80b617ed",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/1d8c2a99c80862bdc3af94c1781bf70f86bccac0",
+                "reference": "1d8c2a99c80862bdc3af94c1781bf70f86bccac0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": "^5.5.9|>=7.0.8"
             },
             "require-dev": {
                 "symfony/console": "~2.8|~3.0"
@@ -2003,7 +2023,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-23T12:43:26+00:00"
+            "time": "2017-07-29 21:54:42"
         },
         {
             "name": "webmozart/assert",
@@ -2053,7 +2073,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23T20:04:58+00:00"
+            "time": "2016-11-23 20:04:58"
         }
     ],
     "aliases": [],
