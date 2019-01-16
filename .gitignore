@@ -1,5 +1,7 @@
-assets/*
+/public/assets/
+/public/resources/
 _ss_environment.php
+.env
 tools/phing-metadata
 silverstripe-cache
 .buildpath
@@ -8,11 +10,5 @@ silverstripe-cache
 .idea
 .DS_Store
 vendor/
-cms/
-framework/
-silverstripe-*
-reports/
-siteconfig/
-crontask/
-environmentcheck/
-themes/starter*
+/themes/starter/
+/themes/watea/
