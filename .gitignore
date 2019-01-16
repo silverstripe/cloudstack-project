@@ -12,3 +12,5 @@ silverstripe-cache
 vendor/
 /themes/starter/
 /themes/watea/
+Vagrantfile
+/.vagrant/
